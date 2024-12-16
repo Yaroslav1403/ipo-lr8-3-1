@@ -14,7 +14,7 @@ data_about_stars_1 = [
 ]
 #Открываем файл для записи и сохраняем данные о звёздах в формате json
 with open(file, 'w') as f:
-    json.dump(data_about_stars_1, f)
+    json.dump(data_about_stars_1, f) 
 
 #Создаём переменную count_of_operations, которая будет использоваться для подсчета количества выполненных операций с записями о звёздах
 count_of_operations = 0
